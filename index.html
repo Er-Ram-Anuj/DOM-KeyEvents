@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Some Common Event Listner</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Different Projects of your choice with a common event Listner each project should
+        contain at least one event lister.
+        Onclick
+        Doubleclick
+        Mouseover
+        mouse out
+        onkeypress
+        keydown
+        keyup -->
+
+
+    <div class="div" id="One">
+      <h1>On Click Example</h1>
+      <h2 id="heading2"></h2>
+      <button id="btn1">Click me To Print Message</button>
+    </div>
+
+<!-- ...........................................  -->
+
+
+    <div class="div" id="two">
+      <h1>This is example Of OnClick</h1>
+      <p id="para2"></p>
+      <button id="btn2" onclick="second()">OnClick Example</button>
+    </div>
+
+
+<!-- ....................................................  -->
+
+    <div class="div" id="three">
+<h1>This is example of  Doubleclick event</h1>
+<h2 id="thirdHeadingI"></h2>
+<h3 id="thirdHeadingII"></h3>
+<button id="btn3">Click Me</button>
+
+
+    </div>
+
+
+    <!-- ..........................................  -->
+    <div class="div" id="four">
+<H1>This is Mouseover And mouse Out  Example</H1>
+<h4 id="HeadindFourI"></h4>
+    </div>
+
+
+<!-- ................................................  -->
+    <div class="div" id="five">
+      <h1>This is example Of Keybord Event.</h1>
+      <h2 id="Display"></h2>
+      <input type="text" id="okp" placeholder="onkeypress" onkeypress="onefun(),alert(this.value)">
+      <input type="text" id="kdn" placeholder="keydown" onkeydown="twofun(),alert(this.value)">
+      <input type="text" id="kup" placeholder="keyup" onkeyup="threefun(),alert(this.value)">
+    </div>
+
+
+
+
+    <div class="div" id="six"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
